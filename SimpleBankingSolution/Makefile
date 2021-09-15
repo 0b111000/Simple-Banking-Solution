@@ -1,7 +1,7 @@
 CPP = g++
 FLAGS = -O5 -Wall -W
 RM = rm -f
-EXEC = question2
+EXEC = BankingSolution
 OBJECTS = main.o account.o bank.o atm.o
 
 all : $(OBJECTS) compile
